@@ -1906,17 +1906,17 @@
 	layer = HUD_LAYER+0.1
 
 /atom/movable/screen/grain
-	icon = 'icons/grain.dmi'
-	icon_state = "grain"
+	icon = 'icons/noise.dmi'
+	icon_state = "1"
 	name = ""
-	screen_loc = "1,1"
+	screen_loc = "1,1 to 15,15"
 	mouse_opacity = 0
-	alpha = 55 // I DO SEE NOTHING WITH 70 ALPHA
+//	alpha = 55 // I DO SEE NOTHING WITH 70 ALPHA
 //	layer = 20.5
 //	plane = 20
 	layer = 13
 	plane = 0
-	blend_mode = 4
+//	blend_mode = 4
 
 /atom/movable/screen/scannies
 	icon = 'icons/mob/roguehudback2.dmi'
